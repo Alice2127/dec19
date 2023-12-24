@@ -5,6 +5,9 @@ defmodule Dec19 do
   ## Examples
       iex> Dec19.sum(1, 2)
       3
+
+      iex> Dec19.sum(2, 3)
+      5
   """
-  def sum(a, b), do: 3
+  def sum(a, b), do: a + b
 end
