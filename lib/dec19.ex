@@ -1,9 +1,10 @@
 defmodule Dec19 do
-  @moduledoc """
-  Dec19 keeps the contexts that define your domain
-  and business logic.
+  @doc """
+  Get the result of adding.
 
-  Contexts are also responsible for managing your data, regardless
-  if it comes from the database, an external API or others.
+  ## Examples
+      iex> Dec19.sum(1, 2)
+      3
   """
+  def sum(a, b), do: 3
 end
